@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:12.5
 # ruleid: missing-no-install-recommends
 RUN apt-get install semgrep=0.30.0
 
