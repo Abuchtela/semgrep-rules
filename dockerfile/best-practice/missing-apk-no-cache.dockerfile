@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.17
 
 # ruleid: missing-apk-no-cache
 RUN apk update \
