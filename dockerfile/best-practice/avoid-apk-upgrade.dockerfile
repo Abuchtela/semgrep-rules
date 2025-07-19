@@ -1,4 +1,4 @@
-FROM alpine:3.21.0
+FROM alpine:3.22.1
 
 # ruleid: avoid-apk-upgrade
 RUN apk update \
